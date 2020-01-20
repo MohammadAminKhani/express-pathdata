@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello to that aboves!</title>
+  </head>
+  <body>
+    <% if(photo.length > 0){ %>
+      <% for(i=0; i <= photo.length; i++){ %>
+        <img src="<%= photo[i] %>">
+      <% } %>
+    <% } %>
+  </body>
+</html>
