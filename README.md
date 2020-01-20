@@ -3,6 +3,8 @@
 
 [this is final video](https://archive.org/details/express-pathdata)
 
+![](https://ia601508.us.archive.org/30/items/express-pathdata/express-pathdata.mp4)
+
 ![](https://ia801402.us.archive.org/18/items/img20200121020039/IMG_20200121_020039.jpg)
 
 ## app.js
