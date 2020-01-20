@@ -15,10 +15,17 @@ app.set('appData' , dataFile)
 ```
 var data = req.app.get('appData')
 ...
-data.speakers.forEach(function(item){ if(item.shortname == req.params.speakerid){ pageSpeakers.push(item) pagePhotos = pagePhotos.concat(item.artwork) } })
+data.speakers.forEach(function(item){
+  if(item.shortname == req.params.speakerid){
+    pageSpeakers.push(item)
+    pagePhotos = pagePhotos.concat(item.artwork)
+    }
+  })
 ...
 ...
 var data = req.app.get('appData')
 ...
-data.speakers.forEach(function(item){ pagePhotos = pagePhotos.concat(item.artwork) })
+data.speakers.forEach(function(item){
+  pagePhotos = pagePhotos.concat(item.artwork)
+  })
 ```
