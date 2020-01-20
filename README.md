@@ -3,7 +3,7 @@
 
 [this is final video](https://archive.org/details/express-pathdata)
 
-[![](https://archive.org/details/img20200121020039)]
+![](https://ia801402.us.archive.org/18/items/img20200121020039/IMG_20200121_020039.jpg)
 
 ## app.js
 ```
